@@ -1,0 +1,100 @@
+
+
+
+body{
+	background-image:url("../image/Capture.jpg");
+	margin:auto;
+}
+
+
+fieldset {
+				width: 310px;
+				margin-top: 20px;
+				border: 1px solid #d6d6d6;
+				background-color: #ffffff;
+				line-height: 1.6em;}
+
+
+button:hover{
+	background-color: red;
+
+
+	}
+
+btnl:hover{
+	background-color: red;
+}
+
+.nav{
+		
+		padding :0;
+		margin :0;
+		position:absolute;
+		top:250px;
+		left:20px;
+		width:17000px;
+	
+	}
+
+		.nav1{
+		
+		padding :0;
+		margin :0;
+		position:absolute;
+		top:20px;
+		left:100px;
+		width:170px;
+	
+	}
+
+
+
+
+	 .verticalLine {
+            height: 650px;
+            border-right: 1px solid #000900;
+            position: absolute;
+            right: 50%;
+	    top:250px;
+
+
+
+        }
+
+
+
+p.menu {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	background-color:red;
+	overflow: hidden;
+	
+        }
+
+
+
+ul.menu1 {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	background-color: #333;
+	overflow: hidden;
+	
+}
+
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+h1{ color:red;
+	}
