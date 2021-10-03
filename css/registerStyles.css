@@ -1,0 +1,77 @@
+body {
+  background-image: linear-gradient(to right,#2bb5d9  , #000066);
+  background-position: center;
+  margin:auto;
+  background-color:#59d1f0;
+  margin:auto;
+}
+
+
+
+/* Add padding to containers */
+.container {
+	width:70%;
+	margin:auto;
+	background:white;
+	font-size:14px;
+	font-family:Verdana;
+	color:black;
+    padding: 16px;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=mobile], input[type=email], input[type=password] {
+  width: 50%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+  
+}
+
+input[type=text]:focus, input[type=password]:focus,  input[type=mobile]:focus, input[type=email]:focus {
+  background-color: #ddd;
+  outline: 1;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* style for the register button */
+.registerbtn {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 15px 35px;
+  color: white;
+  background-image: linear-gradient(to top, #2e12e3 , #160778);
+  text-align: center;
+  cursor: pointer;
+   -webkit-transition:all .1s linear;
+  -o-transition:all .1s linear;
+  transition:all .1s linear;
+}
+}
+
+.registerbtn:hover {
+	 opacity: 0.8;
+     background-image: linear-gradient(to bottom, #1adbdb , #160778);
+     background-color: #555;
+     color: white;
+     transform:scale(1.1); 
+     -webkit-transform:scale(1.1);
+}
+
+/* Add a blue text color to links */
+a {
+  color: dodgerblue;
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+  background-color: #f1f1f1;
+  text-align: center;
+}
