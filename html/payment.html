@@ -1,0 +1,248 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Payment</title>
+
+
+
+<link rel ="stylesheet" type="text/css" href="../css/galleryStyles.css">
+
+<link rel="stylesheet" type="text/css"  href="../css/headerStyles.css">
+
+<link rel="stylesheet" type="text/css"  href="../css/footerStyles.css">
+<script type="text/javascript" src="../js/paymentScript.js"></script>
+
+
+
+
+
+
+
+
+<link rel="stylesheet" type="text/css" href="../css/paymentStyles.css">
+<script type="text/javascript" src="../js/paymentScript.js"></script>
+<script type="text/javascript" src="../js/paymentScript2.js"></script>
+<script type="text/javascript" src="../js/paymentScript3.js"></script>
+
+</head>
+
+
+<body>
+
+  <div class="header">
+<table width="100%">
+<tr>
+   <td width="8%">
+   <img class="logo" src="../images/logo.png" width="100" height="100" alt="SeaCoastlogo">
+   </td>
+   <td id= "td" align = "left">
+   
+   <h1 class ="header_title">Seacoast Hotel</h1>
+   </td>
+   <td width="20%" align="right" >
+   <a href="login.html" class="btn1">Login</a>
+   </td>
+   <td width="7%" align="left" >
+   <a href="register.html" class="btn2">Register</a>
+   </td>
+   </table>
+</div>
+
+
+   <div id="navbar">
+     <a href="home.html">Home</a>
+     <a href="bookNow.html">Book Now</a>
+     <a href="events.html">Events</a>
+     <a href="services.html">Services</a>
+     <a href="packages.html">Packages</a>
+     <a href="gallery.html">Gallery</a>
+     <a href="contactUs.html">Contact Us</a>
+     <a href="aboutUs.html">About Us</a>
+   </div>
+
+	
+
+
+
+
+
+
+
+
+
+<form action="../php/payment/payment.php" target="_self" method="POST" onsubmit="return checkPasswords()">
+
+<fieldset>
+<div class="verticalLine">
+
+
+<p class="nav1">
+<h> Payment </h><br><br>
+Select Payment Type<br>
+<input type="radio" id="money" name="money" onclick="loadData(1)" >Payoneer<br>
+<input type="radio" id="money" name="money" onclick="loadData(2)" >PayPAl<br>
+<input type="radio" id="money" name="money" onclick="loadData(3)" >VISA <br> 
+<input type="radio" id="money" name="money" onclick="loadData(4)" >MasterCard <br>
+<input type="radio" id="money" name="money" onclick="loadData(5)" >American Express </p>
+<br><br>
+
+
+
+
+
+
+
+
+<p class="nav" >
+
+Card Number<br>
+
+<input type="text" id="cardnum" name="cardnum" pattern="[0-9]{10}"required  >
+
+<br><br>
+
+Pin Number<br> 
+<input type="password" id="pwd" name="pwd" pattern="[a-z0-9]{8}"required ><br><br>
+
+
+
+<img src="images/Essential-Minimal-Payment-Icons.jpg" height="150" width="600">
+
+<br><br>
+
+<input class="button" type="submit" id="btnl" name="btnl" value="COMPLETE RESERVATION"style="width:500px;" ><br><br>
+
+
+
+</p>
+
+</div>
+
+
+<h1>Guest Information </h1>
+
+
+First Name <br>
+<input type="text" id="fname" name="fname" style="width:500px; placeholder="Enter Your First Name" required  ><br>
+
+Last name <br>
+<input type="text" id="fname" name="fname" style="width:500px;" required  ><br>
+
+Mobile Number <br>
+<input type="text" id="mobile" name="mobile" style="width:500px;" pattern="[0-9]{10}" required  ><br><br>
+
+
+Email Addess<br>
+<input type="email" id="emailAdd" name="emailAdd" style="width:500px;" pattern="[a-zA-Z0-9._%+-]*@[a-z0-9]+\.[a-z]{2,3}"  required ><br><br>
+
+Address <br>
+<input id="addr" name="addr" rows="10" cols="50"  style="width:500px;" required > </textarea><br><br>
+
+Date <br>
+<input type="date" id="dob" name="dob" required ><br><br>
+
+
+
+Password<br>
+<input type="password" id="pwd" name="pwd" style="width:500px; pattern="[a-z0-9]{5,8}" required ><br><br>
+
+Re-rnter Password <br>
+<input type="password" id="rpwd" name="rpwd" style="width:500px;" required  ><br><br>
+
+Accept Privacy policy terms
+<input type ="checkbox" id="policy" name="policy" onclick=enableButton() required ><br><br>
+
+</fieldset>
+
+
+<br>
+
+
+<input type="reset" id="btnl2" name="btnl2" value="Reset"><br><br>
+
+
+
+
+<img src="" id="card" alt="" height="200px" >
+
+<p id="details"></p>
+
+
+</form>
+
+
+
+
+
+
+
+
+
+<footer class="site-footer">
+
+<table width=100%>
+<tr>
+   <td width=15%>
+         <div class="footertwo">
+            <h6>Quick Links</h6>
+            <ul class="footer-links">
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Contact Us</a></li>
+              <li><a href="Gallery.html">Gallery</a></li>
+              <li><a href="#">Packages</a></li>
+            </ul>
+          </div>
+   
+   <td id= "td" align = "left">
+   
+          <div class="footertwo">
+            <ul class="footer-links">
+              <li><a href="#">Terms and Conditions</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+            </ul>
+          </div>
+   </td>
+   <td align=right >
+   <ul class="social-icons">
+              <li><a class="facebook" href="https://www.facebook.com/">
+					<img src="../images/facebook.png"  style="width:42px;height:42px;border:0;">
+				</a> </li>
+              <li><a class="twitter" href="https://twitter.com/?lang=en">
+					<img src="../images/twitter.jpg" alt="Twitter" style="width:42px;height:42px;border:0;">
+				</a></li>
+              <li><a class="instagram" href="https://www.instagram.com/?hl=en">
+					<img src="../images/instagram.jpg" alt="Instagram" style="width:42px;height:42px;border:0;">
+				</a></li>
+              <li><a class="youtube" href="https://www.youtube.com">
+					<img src="../images/youtube.jpg" alt="Youtube" style="width:42px;height:42px;border:0;">
+				</a></li>   
+         		 </ul>
+   </td>
+   </table>
+
+        
+ 
+        
+    <hr>
+            <p class="copyright-text">Copyright &copy; 2020 All Rights Reserved by seacoast.</p> 
+</footer>
+</div>
+<script type="text/javascript" src="../js/headerScript.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
