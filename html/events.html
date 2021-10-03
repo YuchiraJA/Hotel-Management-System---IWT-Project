@@ -1,0 +1,175 @@
+<!DOCTYPE.html>
+<html>
+<head>
+	<title>Events</title>
+	<link rel="stylesheet" type="text/css"  href="../css/events_adminLoginStyles.css">
+	<script src="../js/eventsScript.js" ></script>
+<body>
+
+  <div class="header">
+<table width="100%">
+<tr>
+   <td width="8%">
+   <img class="logo" src="../images/logo.png" width="100" height="100" alt="SeaCoastlogo">
+   </td>
+   <td id= "td" align = "left">
+   
+   <h1 class ="header_title">Seacoast Hotel</h1>
+   </td>
+   <td width="20%" align="right" >
+   <a href="login.html" class="btn1">Login</a>
+   </td>
+   <td width="7%" align="left" >
+   <a href="register.html" class="btn2">Register</a>
+   </td>
+   </table>
+</div>
+
+
+   <div id="navbar">
+     <a href="home.html">Home</a>
+     <a href="bookNow.html">Book Now</a>
+     <a href="events.html">Events</a>
+     <a href="services.html">Services</a>
+     <a href="packages.html">Packages</a>
+     <a href="gallery.html">Gallery</a>
+     <a href="contactUs.html">Contact Us</a>
+     <a href="aboutUs.html">About Us</a>
+   </div>
+
+
+<center>
+	<h1><i><b>Events</b></i></h1>
+<p><i>Choose form your collection of special events and meeting spaces to Weddings, Exhibitions, Special Meetings, Political Events etc.
+ Our team of experts will assist you at every steps to ensure the most perfect and memorable events.</i></p>
+</center>	
+
+<center>
+<script>
+	var i = 0; // Start point
+	var Images = [];
+	var time = 1500;
+
+	// Images List
+	Images[0] = '../images/unnamed.jpg';
+	Images[1] = '../images/luxury-villas-sri-lanka-desktop-large.jpg';
+	Images[2] = '../images/high-res-beach-1-02-01.jpg';
+	Images[3] = '../images/SLCKOGGALA_KOGG-TOP-54.jpg';
+	Images[4] = '../images/hotels-in-sri-lanka-desktop-large.jpg';
+	Images[5] = '../images/rani-03.jpg';
+	Images[6] = '../images/slider8.jpg';
+	Images[7] = '../images/03.-Pool-Pavilion-1.jpg';
+
+	// Change Image
+	function changeImg(){
+		document.slide.src = Images[i];
+
+		if(i < Images.length - 1){
+			i++;
+		} else {
+			i = 0;
+		}
+
+		setTimeout("changeImg()", time);
+	}
+
+	window.onload = changeImg;
+
+</script>
+
+<img name="slide" width="900" height="300">
+
+</center>
+
+<table bgcolor="#F0E68C" border="1" align="center" width="95%">
+<tr class="tr1">
+<th> 
+<img class="logo" src="../images/our-state-of-the-art.jpg" align="left" height="200" width="400" alt="Hotel hall" title="Grand Ballroom">
+ <h1>Grand Ballroom </h1> 
+ <h4>Max Capacity : 800</h4>
+ <h4>Dimension : 94ft * 68ft | Area : 6762 ft | Height : 12 ft</h4>
+ <h4>Guest Entry Point : 3</h4>
+ <form action="" target="" method="" onsubmit="return HallPrice1()">
+ <input type="submit" id="btn1" name="btn1" align="right" value="Hall Price"></th>
+ 
+ 
+</tr>
+
+<tr>
+<th> 
+<img class="logo" src="../images/banquets.jpg" align="left" height="200" width="400" alt="Hotel hall" title="Golden Ballroom">
+ <h1>Golden Ballroom </h1> 
+ <h4>Max Capacity : 250</h4>
+ <h4>Dimension : 26.3m * 15.8m | Area : 250 Sq.mt | Height : 7.9m</h4>
+ <h4>Guest Entry Point : 2</h4> 
+ <form action="" target="" method="" onsubmit="return Price2()">
+ <input type="submit" id="btn2" name="btn2" align="right" value="Hall Price"></th>
+</tr>
+
+<tr>
+<th> 
+<img class="logo" src="../images/slider2.jpg" align="left" height="200" width="400" alt="Hotel hall" title="Events Hall">
+ <h1>Events Hall </h1> 
+ <h4>Max Capacity : 500</h4>
+ <h4>Dimension : 110ft * 88ft | Area : 9680 Sq.mt | Height : 8.5ft</h4>
+ <h4>Guest Entry Point : 2</h4>
+ <form action="" target="" method="" onsubmit="return HallPrice3()">
+ <input type="submit" id="btn3" name="btn3" align="right" value="Hall Price"></th>
+</tr>
+
+</table>	
+
+<footer class="site-footer">
+
+<table width=100%>
+<tr>
+   <td width=15%>
+         <div class="footertwo">
+            <h6>Quick Links</h6>
+            <ul class="footer-links">
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Contact Us</a></li>
+              <li><a href="#">Gallery</a></li>
+              <li><a href="#">Packages</a></li>
+            </ul>
+          </div>
+   
+   <td id= "td" align = "left">
+   
+          <div class="footertwo">
+            <ul class="footer-links">
+              <li><a href="#">Terms and Conditions</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+            </ul>
+          </div>
+   </td>
+   <td align=right >
+   <ul class="social-icons">
+              <li><a class="facebook" href="https://www.facebook.com/">
+					<img src="../images/facebook.png"  style="width:42px;height:42px;border:0;">
+				</a> </li>
+              <li><a class="twitter" href="https://twitter.com/?lang=en">
+					<img src="../images/twitter.jpg" alt="Twitter" style="width:42px;height:42px;border:0;">
+				</a></li>
+              <li><a class="instagram" href="https://www.instagram.com/?hl=en">
+					<img src="../images/instagram.jpg" alt="Instagram" style="width:42px;height:42px;border:0;">
+				</a></li>
+              <li><a class="youtube" href="https://www.youtube.com">
+					<img src="../images/youtube.jpg" alt="Youtube" style="width:42px;height:42px;border:0;">
+				</a></li>   
+         		 </ul>
+   </td>
+   </table>
+
+        
+ 
+        
+    <hr>
+            <p class="copyright-text">Copyright &copy; 2020 All Rights Reserved by seacoast.</p> 
+</footer>
+</div>
+<script type="text/javascript" src="../js/headerScript.js"></script>
+	
+</body>
+</head>
+</html>
