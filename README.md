@@ -17,6 +17,6 @@
 ###### Member 3 - Dinithi
 ###### Member 4 - Uresha
 
- <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://cdn.icon-icons.com/icons2/2699/PNG/512/java_logo_icon_168609.png" width="400"></a></p>
+ <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://www.freepnglogos.com/pics/php-logo" width="400"></a></p>
 
 <a href="https://www.freepnglogos.com/pics/php-logo" title="Image from freepnglogos.com"><img src="https://www.freepnglogos.com/uploads/php-logo-png/php-logo-html-css-php-mysql-logo-png-transparent-14.png" width="200" alt="php logo, html css php mysql logo png transparent" /></a>
