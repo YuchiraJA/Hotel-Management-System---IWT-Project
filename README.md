@@ -19,4 +19,4 @@
 
  <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://www.freepnglogos.com/uploads/php-logo-png/php-logo-html-css-php-mysql-logo-png-transparent-14.png" width="400"></a></p>
 
-<a href="https://www.freepnglogos.com/pics/php-logo" title="Image from freepnglogos.com"><img src="https://www.freepnglogos.com/uploads/php-logo-png/php-logo-html-css-php-mysql-logo-png-transparent-14.png" width="200" alt="php logo, html css php mysql logo png transparent" /></a>
+
